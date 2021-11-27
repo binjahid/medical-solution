@@ -1,0 +1,50 @@
+.home-appointment-container {
+  height: 400px;
+}
+.appoint-description {
+  width: 580px;
+  height: 360px;
+  left: 40px;
+  top: -25px;
+  background-color: #00acff;
+  z-index: 100;
+}
+.appoint-description blockquote {
+  color: white;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 0 50px;
+}
+.appoint-description blockquote::before {
+  content: "";
+  width: 80px;
+  border-bottom: 3px solid rgb(188, 116, 165);
+  top: 110px;
+  color: #bc74a5;
+  position: absolute;
+}
+.appoinmentForm {
+  width: 730px;
+  height: 450px;
+  right: 15px;
+  top: -60px;
+  z-index: 90;
+  background-color: white;
+}
+/* * {
+  margin: 0;
+  padding: 0;
+}
+.appoint-description {
+  height: 360px;
+  padding: 0;
+  background-color: #00acff;
+} */
+.form-title {
+  font-size: 25px;
+  font-weight: 600;
+}
+.formimage {
+  width: 300px;
+  margin-left: 60px;
+}

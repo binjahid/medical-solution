@@ -1,0 +1,18 @@
+.banner-container {
+  height: 700px;
+  background-image: url("https://images.unsplash.com/photo-1625134673337-519d4d10b313?auto=format&fit=crop&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1538");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.banner-info-container {
+  position: absolute;
+  left: 250px;
+  top: 170px;
+}
+.banner-title {
+  font-size: 35px;
+  font-weight: 700;
+  width: 500px;
+  color: white;
+}
